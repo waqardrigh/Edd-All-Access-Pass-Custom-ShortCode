@@ -325,7 +325,7 @@ function wooninjas_custom_edd_downloads_query( $atts, $content = null ) {
 
 	$display = ob_get_clean();
 
-	do_shortcode("[wooninjas_downloads_by_pass_id pass_id=9]");
+	//do_shortcode("[wooninjas_downloads_by_pass_id pass_id=9]");
 
 
 	return apply_filters( 'downloads_shortcode', $display, $atts, $atts['buy_button'], $atts['columns'], '', $downloads, $atts['excerpt'], $atts['full_content'], $atts['price'], $atts['thumbnails'], $query );
